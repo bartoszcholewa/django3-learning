@@ -1,4 +1,4 @@
-# Django 3 by Exaple - Antonio Melé [packt]
+# Django 3 by Example - Antonio Melé [packt]
 Based on book of Antonio Melé -  Django By Exaple
 
 ## Useful commands:
@@ -61,6 +61,9 @@ https://docs.djangoproject.com/en/3.2/ref/templates/builtins/
 * Class-based views: \
 https://docs.djangoproject.com/en/3.2/topics/class-based-views/intro/
   
+* Form fields: \
+https://docs.djangoproject.com/en/3.2/ref/forms/fields/
+  
 
 ## Chapter 1
 1. Instaling Django
@@ -72,3 +75,9 @@ https://docs.djangoproject.com/en/3.2/topics/class-based-views/intro/
 7. Creating template views
 8. Adding pagination
 9. Class-based views
+
+## Chapter 2
+1. Post e-mail sharing
+2. Comment system
+3. Adding tags
+4. Showing similar posts based on tags
