@@ -39,6 +39,29 @@ Based on book of Antonio Melé -  Django By Exaple
   (venv) ~/mysite$ python manage.py shell
   ```
   
+* Creating conflict-free Django datadump fixture
+  ```shell
+  (venv) ~/mysite$ python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 4 > blog/fixtures/blog.json
+  ```
+  
+* Loading data from fixture
+  ```shell
+  (venv) ~/mysite$ python manage.py loaddata blog/fixtures/blog.json
+  ```
+
+* Setting up PostgreSQL on linux:
+  * `sudo apt-get install postgresql postgresql-contrib`
+  * `pip install psycopg2-binary==2.8.6` IMPORTANT!
+  * `sudo nano etc/postgresql/10/main/pg_hba.conf`
+    ```editorconfig
+    # "local" is for Unix domain socket connections only
+    local   all             all                                     md5
+    ```
+  * `su postgres`
+  * `createuser -dP blog`
+  * `createdb -E utf8 -U blog blog`
+  
+
 ## Usefull links
 * Path converters: `path("/<int:pk>/<slug:slug>/<int:year>")` \
 https://docs.djangoproject.com/en/3.2/topics/http/urls/#path-converters
@@ -81,3 +104,9 @@ https://docs.djangoproject.com/en/3.2/ref/forms/fields/
 2. Comment system
 3. Adding tags
 4. Showing similar posts based on tags
+
+## Chapter 3
+1. Creating custom template tags and filters
+2. Adding sitemap
+3. Creating RSS channel
+4. Search query
