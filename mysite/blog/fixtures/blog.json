@@ -1,0 +1,745 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$SQqHeoebXlVb$hgp3zm4qYviD677eRB+69h4NX2JTBSds415wnaAN4uw=",
+        "last_login": "2021-06-27T10:23:16.498Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-06-27T10:22:55.223Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hh52wiw4u7mma7s2qy5jmawkpizc7i7m",
+    "fields": {
+        "session_data": "YmM4YjBjZGNhNDc2NGFmYjFlMGExNWEwMDNiOGI3YjBjZmQ4OWYwMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlNjBjMDM0ZDkzNDM0MGFjMTE2NmIyZDU5ZTNkMmEwYzcxYzk0OWRjIn0=",
+        "expire_date": "2021-07-11T10:23:16.504Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Blog From Wikipedia, the free encyclopedia",
+        "slug": "blog-wikipedia-free-encyclopedia",
+        "author": [
+            "admin"
+        ],
+        "body": "A blog (a truncation of \"weblog\")[1] is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page. Until 2009, blogs were usually the work of a single individual,[citation needed] occasionally of a small group, and often covered a single subject or topic. In the 2010s, \"multi-author blogs\" (MABs) emerged, featuring the writing of multiple authors and sometimes professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other \"microblogging\" systems helps integrate MABs and single-author blogs into the news media. Blog can also be used as a verb, meaning to maintain or add content to a blog.",
+        "publish": "2021-06-27T10:23:19Z",
+        "created": "2021-06-27T10:23:41.507Z",
+        "updated": "2021-06-27T10:24:02.321Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Journalism",
+        "slug": "journalism",
+        "author": [
+            "admin"
+        ],
+        "body": "Journalism is the production and distribution of reports on current events based on facts and supported with proof or evidence. The word journalism applies to the occupation, as well as collaborative media who gather and publish information based on facts and supported with proof or evidence. Journalistic media include print, television, radio, Internet, and, in the past, newsreels.\r\n\r\nConcepts of the appropriate role for journalism vary between countries. In some nations, the news media are controlled by government intervention and are not fully independent.[1] In others, the news media are independent of the government but instead operate as private industry. In addition to the varying nature of how media organizations are run and funded, countries may have differing implementations of laws handling the freedom of speech and libel cases.",
+        "publish": "2021-06-27T10:24:08Z",
+        "created": "2021-06-27T10:25:05.991Z",
+        "updated": "2021-06-27T10:28:51.166Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Arts journalism",
+        "slug": "arts-journalism",
+        "author": [
+            "admin"
+        ],
+        "body": "Arts journalism is a branch of journalism concerned with the reporting and discussion of the arts including, but not limited to, the visual arts, film, literature, music, theater, and architecture.\r\n\r\nTraditionally, journalists and critics writing about the arts have backgrounds in writing and the arts; apart from baccalaureate studies in literary criticism, the humanities, and art history, there is no other formal advanced journalistic training in this field.\r\n\r\nFor instance, an art magazine is a publication with the main topic being art, and is contributed to by people from the practice of artmaking, curating, critical theory, or teaching, among other functions\u2014whether they be institution-based, academy-based, or independent/self-taught. Such a magazine can be published in print, online, or both, and may be aimed at different audiences, including galleries, buyers, amateur or professional artists, and the general public. In short, art magazines can be either trade or consumer magazines, or both.\r\n\r\nThere are also radio and TV features covering art topics.",
+        "publish": "2021-06-27T10:25:08Z",
+        "created": "2021-06-27T10:25:42.723Z",
+        "updated": "2021-06-27T10:25:42.723Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "Django (web framework)",
+        "slug": "django-web-framework",
+        "author": [
+            "admin"
+        ],
+        "body": "Django (/\u02c8d\u0292\u00e6\u014b\u0261o\u028a/ JANG-goh; sometimes stylized as django)[8] is a Python-based free and open-source web framework that follows the model\u2013template\u2013views (MTV) architectural pattern.[9][10] It is maintained by the Django Software Foundation (DSF), an American independent organization established as a 501(c)(3) non-profit.\r\n\r\nDjango's primary goal is to ease the creation of complex, database-driven websites. The framework emphasizes reusability and \"pluggability\" of components, less code, low coupling, rapid development, and the principle of don't repeat yourself.[11] Python is used throughout, even for settings, files, and data models. Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.\r\n\r\nSome well-known sites that use Django include PBS,[12] Instagram,[13] Mozilla,[14] The Washington Times,[15] Disqus,[16] Bitbucket,[17] and Nextdoor.[18]",
+        "publish": "2021-06-27T10:26:21Z",
+        "created": "2021-06-27T10:26:47.805Z",
+        "updated": "2021-06-27T10:26:47.806Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "Web development",
+        "slug": "web-development",
+        "author": [
+            "admin"
+        ],
+        "body": "Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.\r\n\r\nAmong Web professionals, \"Web development\" usually refers to the main non-design aspects of building Web sites: writing markup and coding.[2] Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.\r\n\r\nFor larger organizations and businesses, Web development teams can consist of hundreds of people (Web developers) and follow standard methods like Agile methodologies while developing Web sites. Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of Web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers deal with the servers.",
+        "publish": "2021-06-27T10:27:00Z",
+        "created": "2021-06-27T10:27:22.839Z",
+        "updated": "2021-06-27T10:27:22.839Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "E-commerce",
+        "slug": "e-commerce",
+        "author": [
+            "admin"
+        ],
+        "body": "E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems. E-commerce is in turn driven by the technological advances of the semiconductor industry, and is the largest sector of the electronics industry.\r\n\r\nE-commerce typically uses the web for at least a part of a transaction's life cycle although it may also use other technologies such as e-mail. Typical e-commerce transactions include the purchase of products (such as books from Amazon) or services (such as music downloads in the form of digital distribution such as iTunes Store).[1] There are three areas of e-commerce: online retailing, electronic markets, and online auctions. E-commerce is supported by electronic business.[2]",
+        "publish": "2021-06-27T10:27:26Z",
+        "created": "2021-06-27T10:27:52.531Z",
+        "updated": "2021-06-27T10:27:52.531Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "post": 6,
+        "name": "name1",
+        "email": "name@name.com",
+        "body": "Comment 1",
+        "created": "2021-06-27T10:29:23.415Z",
+        "updated": "2021-06-27T10:29:23.415Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+        "post": 6,
+        "name": "name1",
+        "email": "name@name.com",
+        "body": "Comment 2",
+        "created": "2021-06-27T10:29:27.590Z",
+        "updated": "2021-06-27T10:29:27.590Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "post": 6,
+        "name": "name1",
+        "email": "name@name.com",
+        "body": "Comment 3",
+        "created": "2021-06-27T10:29:31.119Z",
+        "updated": "2021-06-27T10:29:31.119Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "post": 5,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 1",
+        "created": "2021-06-27T10:29:47.312Z",
+        "updated": "2021-06-27T10:29:47.312Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+        "post": 5,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 2",
+        "created": "2021-06-27T10:29:50.797Z",
+        "updated": "2021-06-27T10:29:50.797Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+        "post": 5,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 3",
+        "created": "2021-06-27T10:29:54.664Z",
+        "updated": "2021-06-27T10:29:54.664Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+        "post": 4,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 1",
+        "created": "2021-06-27T10:30:24.529Z",
+        "updated": "2021-06-27T10:30:24.529Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+        "post": 4,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 2",
+        "created": "2021-06-27T10:30:27.720Z",
+        "updated": "2021-06-27T10:30:27.720Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+        "post": 4,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 3",
+        "created": "2021-06-27T10:30:30.765Z",
+        "updated": "2021-06-27T10:30:30.765Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 10,
+    "fields": {
+        "post": 3,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 1",
+        "created": "2021-06-27T10:31:00.138Z",
+        "updated": "2021-06-27T10:31:00.138Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 11,
+    "fields": {
+        "post": 3,
+        "name": "name",
+        "email": "name@name.com",
+        "body": "Comment 2",
+        "created": "2021-06-27T10:31:03.719Z",
+        "updated": "2021-06-27T10:31:03.719Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 12,
+    "fields": {
+        "post": 2,
+        "name": "name",
+        "email": "name@name.pl",
+        "body": "Comment 1",
+        "created": "2021-06-27T10:31:21.873Z",
+        "updated": "2021-06-27T10:31:21.873Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 13,
+    "fields": {
+        "post": 2,
+        "name": "name",
+        "email": "name@name.pl",
+        "body": "Comment 2",
+        "created": "2021-06-27T10:31:25.077Z",
+        "updated": "2021-06-27T10:31:25.077Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 14,
+    "fields": {
+        "post": 2,
+        "name": "name",
+        "email": "name@name.pl",
+        "body": "Comment 3",
+        "created": "2021-06-27T10:31:28.368Z",
+        "updated": "2021-06-27T10:31:28.368Z",
+        "active": true
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "blog",
+        "slug": "blog"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "wikipedia",
+        "slug": "wikipedia"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+        "name": "production",
+        "slug": "production"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+        "name": "journalism",
+        "slug": "journalism"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+        "name": "arts",
+        "slug": "arts"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 6,
+    "fields": {
+        "name": "framework",
+        "slug": "framework"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 7,
+    "fields": {
+        "name": "django",
+        "slug": "django"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 8,
+    "fields": {
+        "name": "web",
+        "slug": "web"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 9,
+    "fields": {
+        "name": "development",
+        "slug": "development"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 10,
+    "fields": {
+        "name": "e-commerce",
+        "slug": "e-commerce"
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+        "tag": 1,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+        "tag": 3,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+        "tag": 4,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+        "tag": 4,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 8,
+    "fields": {
+        "tag": 5,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 9,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 10,
+    "fields": {
+        "tag": 6,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 11,
+    "fields": {
+        "tag": 7,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 12,
+    "fields": {
+        "tag": 8,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 13,
+    "fields": {
+        "tag": 9,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 14,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 15,
+    "fields": {
+        "tag": 7,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 16,
+    "fields": {
+        "tag": 2,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 17,
+    "fields": {
+        "tag": 10,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 18,
+    "fields": {
+        "tag": 7,
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": 6
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-06-27T10:23:41.525Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Blog From Wikipedia, the free encyclopedia Jump to navigationJump to search",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-06-27T10:24:02.327Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "Blog From Wikipedia, the free encyclopedia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-06-27T10:25:06.007Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Journalism",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-06-27T10:25:42.744Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "Arts journalism",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-06-27T10:26:47.825Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "Django (web framework)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-06-27T10:27:22.861Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "5",
+        "object_repr": "Web development",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-06-27T10:27:52.556Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "6",
+        "object_repr": "E-commerce",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-06-27T10:28:51.174Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "Journalism",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+}
+]
