@@ -23,7 +23,7 @@ Based on book of Antonio Melé -  Django By Exaple
     (venv) $ cd mysite
     (venv) ~/mysite$ python manage.py migrate
     ```
-  
+
 * Running local server
     ```shell
     (venv) ~/mysite$ python manage.py runserver localhost:8000
@@ -57,10 +57,15 @@ Based on book of Antonio Melé -  Django By Exaple
     # "local" is for Unix domain socket connections only
     local   all             all                                     md5
     ```
+  * `sudo service postgresql restart`
   * `su postgres`
   * `createuser -dP blog`
   * `createdb -E utf8 -U blog blog`
-  
+
+* Installing Trigram Extension
+  * `sudo su postgres`
+  * `psql blog`
+  * `CREATE EXTENSION pg_trgm;`
 
 ## Usefull links
 * Path converters: `path("/<int:pk>/<slug:slug>/<int:year>")` \
@@ -110,3 +115,5 @@ https://docs.djangoproject.com/en/3.2/ref/forms/fields/
 2. Adding sitemap
 3. Creating RSS channel
 4. Search query
+
+## Chapter 4
