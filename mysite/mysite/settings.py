@@ -143,6 +143,6 @@ EMAIL_USE_TLS = True
 try:
     from .local_settings import *
 except ImportError:
-    print('No Local Settings Found')
+    pass
 
 # ---------------- End Local Settings ------------------------------------

@@ -52,13 +52,13 @@ Based on book of Antonio Melé -  Django By Exaple
 * Setting up PostgreSQL on linux:
   * `sudo apt-get install postgresql postgresql-contrib`
   * `pip install psycopg2-binary==2.8.6` IMPORTANT!
-  * `sudo nano etc/postgresql/10/main/pg_hba.conf`
+  * `sudo nano /etc/postgresql/12/main/pg_hba.conf`
     ```editorconfig
     # "local" is for Unix domain socket connections only
     local   all             all                                     md5
     ```
   * `sudo service postgresql restart`
-  * `su postgres`
+  * `sudo su postgres`
   * `createuser -dP blog`
   * `createdb -E utf8 -U blog blog`
 
@@ -91,6 +91,9 @@ https://docs.djangoproject.com/en/3.2/topics/class-based-views/intro/
   
 * Form fields: \
 https://docs.djangoproject.com/en/3.2/ref/forms/fields/
+
+* Authentication Views \
+https://docs.djangoproject.com/en/3.2/topics/auth/default/
   
 
 ## Chapter 1
