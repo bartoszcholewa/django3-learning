@@ -127,6 +127,8 @@ LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # ---------------- Local Settings ---------------------------------------
 # Put your local settings in directory to override this settings
 # File name should be local_settings.py
