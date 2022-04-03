@@ -122,3 +122,7 @@ https://docs.djangoproject.com/en/3.2/topics/auth/default/
 ## Chapter 4
 1. Django Authorisation Framework
 2. Extending User model
+3. Messages framework
+4. Own authorization mechanics
+   1. username or email verification
+   2. social authorization
