@@ -11,6 +11,7 @@
         </p>
     {% else %}
         <p>Wypełnij poniższy formularz aby się zalogować:</p>
+        <p>Jeśli nie masz konta, <a href="{% url 'register' %}">zarejestruj się</a>.</p>
     {% endif %}
     <div class="login-form">
         <form action="{% url 'login' %}" method="post">
@@ -19,5 +20,6 @@
             <input type="hidden" name="next" value="{{ next }}" />
             <p><input type="submit" value="Zaloguj"></p>
         </form>
+    <p><a href="{% url "password_reset" %}">Zapomniałeś hasła?</a></p>
     </div>
 {% endblock %}
