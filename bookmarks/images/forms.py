@@ -1,4 +1,8 @@
+from urllib import request
+
 from django import forms
+from django.core.files.base import ContentFile
+
 from images.models import Image
 from django.utils.text import slugify
 
@@ -22,7 +26,7 @@ class ImageCreateForm(forms.ModelForm):
         image = super(ImageCreateForm, self).save(commit=False)
         image_url = self.cleaned_data['url']
         image_name = f'{slugify(image.title)}.{image_url.rsplit(".", 1)[1].lower()}'
-        response = requests.urlopen(image_url)
+        response = request.urlopen(image_url)
         image.image.save(image_name, ContentFile(response.read()), save=False)
         if commit:
             image.save()
