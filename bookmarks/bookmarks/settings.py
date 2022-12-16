@@ -39,9 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Packages
+    'easy_thumbnails',
+
     # Apps
-    'social_django',
-    'django_extensions'
+    'images.apps.ImagesConfig',
 
 ]
 
@@ -89,7 +91,6 @@ DATABASES = {
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
-    'social.backend.facebook.Facebook2OAuth2',
 ]
 
 
