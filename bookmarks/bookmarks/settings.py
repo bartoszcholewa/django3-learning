@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from django.urls import reverse_lazy
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
 
     # Apps
     'images.apps.ImagesConfig',
+    'actions.apps.ActionsConfig',
 
 ]
 
@@ -139,6 +141,15 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
+}
+
+# Redis
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
 
 # ---------------- Local Settings ---------------------------------------
 # Put your local settings in directory to override this settings
